@@ -92,8 +92,8 @@ void Pong::intersectionMur()
 	if(abs(pos[2] - 1) < 3*abs(speedZ))
 	{
 		speedZ *= -1;
-		pos[0] += 8*speedX;
-		pos[2] += 8*speedZ;
+		pos[0] += 3*speedX;
+		pos[2] += 3*speedZ;
 	}
 
 	if(abs(pos[2] + 1) < 3*abs(speedZ))
